@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bravera Hotel</title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename='app.css')}}">
+
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    <!-- ✅ Optional Google Fonts (example) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1>Bravera Hotel</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Order</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+	<section class="products-section">
+        <div class="products">
+        
+        </div>
+	</section>
+    </div>
+
+    <script src="{{url_for('static', filename='products.js')}}"></script>
+    <script src="{{url_for('static', filename='display.js')}}"></script>
+</body>
+</html>
