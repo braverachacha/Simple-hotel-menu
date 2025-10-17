@@ -23,17 +23,25 @@
                 <li><a href="">Services</a></li>
             </ul>
         </nav>
-		<!-- <section class="hero-section">
-			<h1>Welcome to Bravera hotel.</h1>
-			<p></p> -->
-		</section>
-		<section class="products-section">
-	        <div class="products">
-	        
-	        </div>
-		</section>
+
+        <div class="cart-section">
+          <img class="cart-icon" src="/static/cart-icon.png" alt="cart-img">
+          <p class="cart-quantity js-cart-quantity">0</p>
+        </div>
+
+        <section class="cta-section">
+    			<h1>Welcome to Bravera Hotel <br>Where comfort meets elegance.</h1>
+    			<p>Experience world-class hospitality, delicious cuisine, and peaceful spaces designed to make you feel right at home.</p>
+        </section>
+        
+  		<section class="products-section">
+          	<div class="products">
+          
+          	</div>
+  		</section>
     </div>
 
+    <script src="{{url_for('static', filename='cart.js')}}"></script>
     <script src="{{url_for('static', filename='products.js')}}"></script>
     <script src="{{url_for('static', filename='display.js')}}"></script>
 </body>
